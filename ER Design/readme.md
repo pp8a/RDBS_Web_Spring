@@ -1,5 +1,5 @@
 # ER Design
-```The purpose of this task is to sketch out the design of a database. You will practice creating an ER diagram by defining the entities, their attributes and showing their relationships.```
+```The purpose of this task is to sketch out the design of a database. You will practice creating an ER diagram by defining the entities, their attributes and showing their relationships.```</br>
 System to design an ER diagram:
 1. Table or Ticket Schedule simulations:
 - Airplane tickets
