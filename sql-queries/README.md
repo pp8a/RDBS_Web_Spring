@@ -3,7 +3,22 @@
 ## Description 
 Fill SQL queries in [`com.epam.rd.tasks.sqlqueries.SqlQueries`](src/main/java/com/epam/rd/tasks/sqlqueries/SqlQueries.java).
 
-You may refer to DDL in [`init-ddl.sql`](src/test/resources/init-ddl.sql).
+You may refer to DDL in [`init-ddl.sql`](src/test/resources/init-ddl.sql).</br>
+```CREATE TABLE DEPARTMENT```</br>
+```(ID       INTEGER PRIMARY KEY,```</br>
+    ```NAME     VARCHAR(14),```</br>
+    ```LOCATION VARCHAR(13));```</br></br>
+```CREATE TABLE EMPLOYEE```</br>
+```(ID         INTEGER PRIMARY KEY,```</br>
+    ```FIRSTNAME  VARCHAR(10),```</br>
+    ```LASTNAME   VARCHAR(10),```</br>
+    ```MIDDLENAME VARCHAR(10),```</br>
+    ```POSITION   VARCHAR(9),```</br>
+    ```MANAGER    INTEGER,```</br>
+    ```HIREDATE   DATE,```</br>
+    ```SALARY     DOUBLE,```</br>
+    ```DEPARTMENT INTEGER,```</br>
+    ```CONSTRAINT FK_DEPTNO FOREIGN KEY (DEPARTMENT) REFERENCES DEPARTMENT (ID));```</br>
 
 Implement sql queries like described:
 1. Select all employees sorted by last name in ascending order
