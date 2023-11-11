@@ -5,8 +5,8 @@
 ## JDBC Essentials and the DAO Pattern
 1. Employees: [Row Mapper](https://github.com/pp8a/RDBS_Web_Spring/tree/main/row-mapper)</br> ```The goal of this exercise is to hone your skills with a RowMapper instance and get to know how to request records from the database.```
 2. Employees: [Set Mapper](https://github.com/pp8a/RDBS_Web_Spring/tree/main/set-mapper)</br> ```This exercise was designed to help you practice requesting specific records from the database using SetMapper.```
-3. Employees: DAO </br> ```While completing the task, you will practice implementing the DAO pattern to minimize dependencies between modules in your application.```
-4. Employees: Service
+3. Employees: [DAO](https://github.com/pp8a/RDBS_Web_Spring/tree/main/dao) </br> ```While completing the task, you will practice implementing the DAO pattern to minimize dependencies between modules in your application.```
+4. Employees: [Service](https://github.com/pp8a/RDBS_Web_Spring/tree/main/service)</br> ```In this task, you will focus on working with the Service layer in alignment with the Factory pattern approach.```
 ## Web Basics
 1. Designing a Web Page
 2. Designing a REST API
