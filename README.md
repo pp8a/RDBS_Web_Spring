@@ -8,7 +8,7 @@
 3. Employees: [DAO](https://github.com/pp8a/RDBS_Web_Spring/tree/main/dao) </br> ```While completing the task, you will practice implementing the DAO pattern to minimize dependencies between modules in your application.```
 4. Employees: [Service](https://github.com/pp8a/RDBS_Web_Spring/tree/main/service)</br> ```In this task, you will focus on working with the Service layer in alignment with the Factory pattern approach.```
 ## Web Basics
-1. Designing a Web Page
+1. Designing a Web Page```The purpose of this exercise is to learn how to use HTML, CSS, and JavaScript to design a web page.```
 2. Designing a REST API
 ## Servlet API and JSP
 1. Expression Calculator
