@@ -9,7 +9,7 @@
 4. Employees: [Service](https://github.com/pp8a/RDBS_Web_Spring/tree/main/service)</br> ```In this task, you will focus on working with the Service layer in alignment with the Factory pattern approach.```
 ## Web Basics
 1. Designing a [Web Page](https://github.com/pp8a/RDBS_Web_Spring/tree/main/designing-a-web-page) </br>```The purpose of this exercise is to learn how to use HTML, CSS, and JavaScript to design a web page.```
-2. Designing a REST API</br>```The purpose of this exercise is to learn how to design a RESTful API.```
+2. Designing a [REST API](https://github.com/pp8a/RDBS_Web_Spring/tree/main/designing-a-rest-api) </br>```The purpose of this exercise is to learn how to design a RESTful API.```
 ## Servlet API and JSP
 1. Expression Calculator
 2. Stateful Expression Calculator
