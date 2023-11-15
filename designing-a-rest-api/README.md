@@ -5,7 +5,7 @@
 4. Send the following results: 
 - The description of entities and operations.
 - The REST API description.
-Please be aware that we expect the completed task to meet the following criteria:
+<br> Please be aware that we expect the completed task to meet the following criteria:
 - Both functional and non-functional requirements should be provided.
 - The model should be complete and unambiguous.
 - All operation descriptions should be complete.
