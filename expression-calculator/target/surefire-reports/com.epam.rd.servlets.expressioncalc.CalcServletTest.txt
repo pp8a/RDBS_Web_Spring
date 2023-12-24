@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.rd.servlets.expressioncalc.CalcServletTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.286 s <<< FAILURE! - in com.epam.rd.servlets.expressioncalc.CalcServletTest
+com.epam.rd.servlets.expressioncalc.CalcServletTest  Time elapsed: 0.111 s  <<< ERROR!
+org.apache.catalina.LifecycleException: Failed to stop component [StandardServer[-1]]
+	at com.epam.rd.servlets.expressioncalc.CalcServletTest.stopServer(CalcServletTest.java:70)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardService[Tomcat]]
+	at com.epam.rd.servlets.expressioncalc.CalcServletTest.stopServer(CalcServletTest.java:70)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Tomcat]]
+	at com.epam.rd.servlets.expressioncalc.CalcServletTest.stopServer(CalcServletTest.java:70)
+Caused by: org.apache.catalina.LifecycleException: A child container failed during stop
+	at com.epam.rd.servlets.expressioncalc.CalcServletTest.stopServer(CalcServletTest.java:70)
+
