@@ -12,7 +12,7 @@
 2. Designing a [REST API](https://github.com/pp8a/RDBS_Web_Spring/tree/main/designing-a-rest-api) </br>```The purpose of this exercise is to learn how to design a RESTful API.```
 ## Servlet API and JSP
 1. [Expression Calculator](https://github.com/pp8a/RDBS_Web_Spring/tree/main/expression-calculator) </br> ```Create a servlet, serving expression value calculating.```
-2. Stateful Expression Calculator
+2. [Stateful Expression Calculator](https://github.com/pp8a/RDBS_Web_Spring/tree/main/stateful-expression-calculator) </br>```Create a webapp serving expression value calculating.```
 3. JSP Currency Сonverter
 # Java Web Development with Spring
 ## Spring Core
