@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.efimchick.ifmo.web.servlets.StatefulCalcServletTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 1.536 s <<< FAILURE! - in com.efimchick.ifmo.web.servlets.StatefulCalcServletTest
+test012  Time elapsed: 0.01 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <201> but was: <200>
+	at com.efimchick.ifmo.web.servlets.StatefulCalcServletTest.test012(StatefulCalcServletTest.java:271)
+
+com.efimchick.ifmo.web.servlets.StatefulCalcServletTest  Time elapsed: 0.15 s  <<< ERROR!
+org.apache.catalina.LifecycleException: Failed to stop component [StandardServer[-1]]
+	at com.efimchick.ifmo.web.servlets.StatefulCalcServletTest.stopServer(StatefulCalcServletTest.java:83)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardService[Tomcat]]
+	at com.efimchick.ifmo.web.servlets.StatefulCalcServletTest.stopServer(StatefulCalcServletTest.java:83)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Tomcat]]
+	at com.efimchick.ifmo.web.servlets.StatefulCalcServletTest.stopServer(StatefulCalcServletTest.java:83)
+Caused by: org.apache.catalina.LifecycleException: A child container failed during stop
+	at com.efimchick.ifmo.web.servlets.StatefulCalcServletTest.stopServer(StatefulCalcServletTest.java:83)
+
