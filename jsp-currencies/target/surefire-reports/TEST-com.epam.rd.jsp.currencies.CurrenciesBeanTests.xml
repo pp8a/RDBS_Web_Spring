@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.epam.rd.jsp.currencies.CurrenciesBeanTests" time="0.235" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\MVA\git\jsp-currencies\target\test-classes;C:\Users\MVA\git\jsp-currencies\target\classes;C:\Users\MVA\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\MVA\.m2\repository\javax\servlet\jsp\jsp-api\2.2\jsp-api-2.2.jar;C:\Users\MVA\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\MVA\.m2\repository\org\apache\tomcat\embed\tomcat-embed-jasper\8.0.47\tomcat-embed-jasper-8.0.47.jar;C:\Users\MVA\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.0.47\tomcat-embed-core-8.0.47.jar;C:\Users\MVA\.m2\repository\org\apache\tomcat\tomcat-annotations-api\8.0.47\tomcat-annotations-api-8.0.47.jar;C:\Users\MVA\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.0.47\tomcat-embed-el-8.0.47.jar;C:\Users\MVA\.m2\repository\org\eclipse\jdt\ecj\3.12.3\ecj-3.12.3.jar;C:\Users\MVA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.10\httpclient-4.5.10.jar;C:\Users\MVA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.12\httpcore-4.4.12.jar;C:\Users\MVA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\MVA\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\MVA\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\MVA\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\MVA\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\MVA\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\MVA\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\MVA\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\MVA\.m2\repository\org\xhtmlrenderer\flying-saucer-core\9.1.20\flying-saucer-core-9.1.20.jar;C:\Users\MVA\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\MVA\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\MVA\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\MVA\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\MVA\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MVA\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Minsk"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\MVA\AppData\Local\Temp\surefire6602837989734173160\surefirebooter13976167584919686261.jar C:\Users\MVA\AppData\Local\Temp\surefire6602837989734173160 2023-12-26T11-17-11_623-jvmRun1 surefire12324257334596007664tmp surefire_01254210585082151991tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\MVA\git\jsp-currencies\target\test-classes;C:\Users\MVA\git\jsp-currencies\target\classes;C:\Users\MVA\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\MVA\.m2\repository\javax\servlet\jsp\jsp-api\2.2\jsp-api-2.2.jar;C:\Users\MVA\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\MVA\.m2\repository\org\apache\tomcat\embed\tomcat-embed-jasper\8.0.47\tomcat-embed-jasper-8.0.47.jar;C:\Users\MVA\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.0.47\tomcat-embed-core-8.0.47.jar;C:\Users\MVA\.m2\repository\org\apache\tomcat\tomcat-annotations-api\8.0.47\tomcat-annotations-api-8.0.47.jar;C:\Users\MVA\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.0.47\tomcat-embed-el-8.0.47.jar;C:\Users\MVA\.m2\repository\org\eclipse\jdt\ecj\3.12.3\ecj-3.12.3.jar;C:\Users\MVA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.10\httpclient-4.5.10.jar;C:\Users\MVA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.12\httpcore-4.4.12.jar;C:\Users\MVA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\MVA\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\MVA\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\MVA\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\MVA\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\MVA\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\MVA\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\MVA\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\MVA\.m2\repository\org\xhtmlrenderer\flying-saucer-core\9.1.20\flying-saucer-core-9.1.20.jar;C:\Users\MVA\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\MVA\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\MVA\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\MVA\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\MVA\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MVA\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\MVA"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\MVA\git\jsp-currencies"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\MVA\AppData\Local\Temp\surefire6602837989734173160\surefirebooter13976167584919686261.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.1.1+2-6"/>
+    <property name="user.name" value="MVA"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\MVA\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MVA\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.1.1"/>
+    <property name="user.dir" value="C:\Users\MVA\git\jsp-currencies"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:/Soft/Java/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.2.v20230801-2057/jre/bin/server;E:/Soft/Java/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.2.v20230801-2057/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Gradle\gradle-7.5\bin;C:\Program Files\apache-maven-3.9.4\bin\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\MVA\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\MVA\AppData\Local\Programs\Python\Python310\;C:\Users\MVA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2021.3.2\bin;;C:\Program Files\Java\jdk-21\bin;;C:\Users\MVA\AppData\Local\Programs\Microsoft VS Code\bin;E:\Soft\Java\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.1.1+2-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="testLarge" classname="com.epam.rd.jsp.currencies.CurrenciesBeanTests" time="0.212"/>
+  <testcase name="testSmall" classname="com.epam.rd.jsp.currencies.CurrenciesBeanTests" time="0.004"/>
+  <testcase name="testMedium" classname="com.epam.rd.jsp.currencies.CurrenciesBeanTests" time="0.006"/>
+</testsuite>
