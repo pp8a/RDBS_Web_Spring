@@ -13,7 +13,7 @@
 ## Servlet API and JSP
 1. [Expression Calculator](https://github.com/pp8a/RDBS_Web_Spring/tree/main/expression-calculator) </br> ```Create a servlet, serving expression value calculating.```
 2. [Stateful Expression Calculator](https://github.com/pp8a/RDBS_Web_Spring/tree/main/stateful-expression-calculator) </br>```Create a webapp serving expression value calculating.```
-3. JSP Currency Сonverter
+3. [JSP Currency Сonverter](https://github.com/pp8a/RDBS_Web_Spring/tree/main/jsp-currencies) </br> ```This task is about converting currencies.```
 # Java Web Development with Spring
 ## Spring Core
 ## Spring MVC
