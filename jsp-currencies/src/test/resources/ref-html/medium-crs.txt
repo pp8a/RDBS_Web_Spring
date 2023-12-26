@@ -1,6 +1,0 @@
-BRL
-CNY
-EUR
-GBP
-NOK
-USD
