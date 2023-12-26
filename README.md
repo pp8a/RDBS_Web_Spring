@@ -1,21 +1,69 @@
-# Introduction to DataBase and Web Development
-## RDBS and SQL Essentials
-1. [ER Design](https://github.com/pp8a/RDBS_Web_Spring/tree/main/ER%20Design) </br>```The purpose of this task is to sketch out the design of a database. You will practice creating an ER diagram by defining the entities, their attributes and showing their relationships.```
-2. Employees: [SQL Queries](https://github.com/pp8a/RDBS_Web_Spring/tree/main/sql-queries)</br>```Implement sql queries like described```
-## JDBC Essentials and the DAO Pattern
-1. Employees: [Row Mapper](https://github.com/pp8a/RDBS_Web_Spring/tree/main/row-mapper)</br> ```The goal of this exercise is to hone your skills with a RowMapper instance and get to know how to request records from the database.```
-2. Employees: [Set Mapper](https://github.com/pp8a/RDBS_Web_Spring/tree/main/set-mapper)</br> ```This exercise was designed to help you practice requesting specific records from the database using SetMapper.```
-3. Employees: [DAO](https://github.com/pp8a/RDBS_Web_Spring/tree/main/dao) </br> ```While completing the task, you will practice implementing the DAO pattern to minimize dependencies between modules in your application.```
-4. Employees: [Service](https://github.com/pp8a/RDBS_Web_Spring/tree/main/service)</br> ```In this task, you will focus on working with the Service layer in alignment with the Factory pattern approach.```
-## Web Basics
-1. Designing a [Web Page](https://github.com/pp8a/RDBS_Web_Spring/tree/main/designing-a-web-page) </br>```The purpose of this exercise is to learn how to use HTML, CSS, and JavaScript to design a web page.```
-2. Designing a [REST API](https://github.com/pp8a/RDBS_Web_Spring/tree/main/designing-a-rest-api) </br>```The purpose of this exercise is to learn how to design a RESTful API.```
-## Servlet API and JSP
-1. [Expression Calculator](https://github.com/pp8a/RDBS_Web_Spring/tree/main/expression-calculator) </br> ```Create a servlet, serving expression value calculating.```
-2. [Stateful Expression Calculator](https://github.com/pp8a/RDBS_Web_Spring/tree/main/stateful-expression-calculator) </br>```Create a webapp serving expression value calculating.```
-3. JSP Currency Сonverter
-# Java Web Development with Spring
-## Spring Core
-## Spring MVC
-## Spring Boot
-## Spring Security API and Test-Driven Development with JUnit
+# JSP Currency
+
+This task is about converting currencies.
+
+### Currencies
+First, implement [`Currencies`](src/main/java/com/epam/rd/jsp/currencies/Currencies.java) methods to
+make [`CurrenciesBeanTests`](src/test/java/com/epam/rd/jsp/currencies/CurrenciesBeanTests.java) pass:
+
+- `getCurrencies` - returns all the currencies in alphabetical order.
+- `getExchangeRates` - returns all the currencies in alphabetical order paired to their exchange rate to a currency
+  given as param.
+- `convert` - takes source and target currencies and amount of money in source currency. Returns equivalent amount in
+  target currency.
+- `addCurrency` - adds a currency entry: name and universal weight. This method is for initializing.
+
+Note: use BigDecimal scale value of 5 and HALF_UP rounding policy.
+
+`Currencies` class is used via its child class `CurrenciesOfCurrentTestCase` that initializes itself in constructor by
+adding all the currencies from current test case file.
+
+### JSP pages
+Then implement three JSP pages:
+- [`currencies.jsp`](src/main/webapp/currencies.jsp) - renders a list of currencies in alphabetical order.
+- [`exchangeRates.jsp`](src/main/webapp/exchangeRates.jsp) - renders a list of all the currencies in alphabetical order paired to their exchange rate to a
+  currency given as a param (named "from"). Note, that a currency given as a param must be excluded from the list: it is
+  the intention.
+- [`convert.jsp`](src/main/webapp/convert.jsp) - renders a phrase representing conversion from given amount of money (param "amount") in source
+  currency (param "from") to target currency (param "to").
+  
+Each JSP page must contain a header and one or several phrases.
+
+**Note:** JSP pages are checked via html analysis, so it is very important to follow notes you may find below.
+
+#### HTML formatting notes
+- Elements
+  - Use `H1` elements for headers.
+  - Use `p` element for enclosing a phrase in `convert.jsp`.
+  - Use unordered lists in `currencies.jsp` and `exchangeRates.jsp`.
+- Headers
+  - `currencies.jsp` header text: "Currencies".
+  - `exchangeRates.jsp` header text: "Exchange Rates for *source_currency*". Replace italic-styled part with an actual value.
+  - `convert.jsp` header text: "Converting *source_currency* to *target_currency*". Replace italic-styled parts with actual values.
+- Phrases
+  - `currencies.jsp` item phrase is just name of a currency.
+  - `exchangeRate.jsp` item phrase: "1 *source_currency* = *exchange_rate* *target_currency*". Replace italic-styled parts with actual values.
+  - `convert.jsp` phrase: "*source amount* *source currency* = *target amount* *target currency*". Replace italic-styled parts with actual values.
+
+#### JSP notes
+- There is a `currencies` bean injected in each jsp page already. Use it to get data.
+- Note, that the `currencies` bean is request scoped. Consider changes, that would occur if there was some other scope.
+- Note, that JSTL tag library is injected as well.
+- Use JSTL tags and JSP expression language instead of plain scriptlets.
+
+#### Recommended Page style
+```css
+body {
+    font-family: "Courier New", serif;
+    font-size: 16pt;
+}
+```
+
+#### Launcher
+There is a [Launcher](src/main/java/com/epam/rd/jsp/currencies/Launcher.java) class.
+You may launch its main method to start an embedded Apache Tomcat instance on `8080` port.
+Current web app would be automatically deployed there.
+
+When it is started, you may address JSPs via browser, cURL or some other tool.
+
+Note: be sure to execute Maven compilation before launching: `target/classes` is used to build the web app.
