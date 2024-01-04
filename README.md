@@ -21,5 +21,8 @@
 3. Spring Chess Puzzles. XML
 4. Spring Custom Scopes
 ## Spring MVC
+1. Stateful Expression Calculator
 ## Spring Boot
+1. Employee Catalog
 ## Spring Security API and Test-Driven Development with JUnit
+1. Spring Catalog Access
