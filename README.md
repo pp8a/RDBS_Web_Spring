@@ -16,6 +16,10 @@
 3. [JSP Currency Сonverter](https://github.com/pp8a/RDBS_Web_Spring/tree/main/jsp-currencies) </br> ```This task is about converting currencies.```
 # Java Web Development with Spring
 ## Spring Core
+1. Spring Chess Puzzles
+2. Spring Video Beans
+3. Spring Chess Puzzles. XML
+4. Spring Custom Scopes
 ## Spring MVC
 ## Spring Boot
 ## Spring Security API and Test-Driven Development with JUnit
