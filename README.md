@@ -17,7 +17,7 @@
 # Java Web Development with Spring
 ## Spring Core
 1. Spring [Chess Puzzles](https://github.com/pp8a/RDBS_Web_Spring/tree/main/chess-puzzles) </br> ```Chess is a famous table game. This exercise is about representing chess board states as Spring configurations.```
-2. Spring Video Beans
+2. Spring [Video Beans](https://github.com/pp8a/RDBS_Web_Spring/tree/main/spring-video-beans) </br> ```The purpose of the task is to configure dependency injection using different scopes.```
 3. Spring Chess Puzzles. XML
 4. Spring Custom Scopes
 ## Spring MVC
