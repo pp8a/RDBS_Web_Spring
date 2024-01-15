@@ -16,7 +16,7 @@
 3. [JSP Currency Сonverter](https://github.com/pp8a/RDBS_Web_Spring/tree/main/jsp-currencies) </br> ```This task is about converting currencies.```
 # Java Web Development with Spring
 ## Spring Core
-1. Spring Chess Puzzles
+1. Spring [Chess Puzzles](https://github.com/pp8a/RDBS_Web_Spring/tree/main/chess-puzzles) </br> ```Chess is a famous table game. This exercise is about representing chess board states as Spring configurations.```
 2. Spring Video Beans
 3. Spring Chess Puzzles. XML
 4. Spring Custom Scopes
