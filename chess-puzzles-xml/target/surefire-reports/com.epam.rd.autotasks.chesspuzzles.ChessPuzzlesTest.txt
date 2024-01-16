@@ -1,0 +1,55 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.rd.autotasks.chesspuzzles.ChessPuzzlesTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 5, Skipped: 0, Time elapsed: 0.397 s <<< FAILURE! - in com.epam.rd.autotasks.chesspuzzles.ChessPuzzlesTest
+testXmlConfigLayouts{String}[1]  Time elapsed: 0.304 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <RNBQKBNR
+PPPPPPPP
+........
+........
+........
+........
+pppppppp
+rnbqkbnr> but was: <........
+........
+........
+........
+........
+........
+........
+........>
+	at com.epam.rd.autotasks.chesspuzzles.ChessPuzzlesTest.testXmlConfigLayouts(ChessPuzzlesTest.java:24)
+
+testXmlConfigLayouts{String}[2]  Time elapsed: 0.046 s  <<< ERROR!
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'blackBishop1' defined in class path resource [defaultblack.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.epam.rd.autotasks.chesspuzzles.Bishop]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.epam.rd.autotasks.chesspuzzles.Bishop.<init>()
+	at com.epam.rd.autotasks.chesspuzzles.ChessPuzzlesTest.testXmlConfigLayouts(ChessPuzzlesTest.java:21)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.epam.rd.autotasks.chesspuzzles.Bishop]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.epam.rd.autotasks.chesspuzzles.Bishop.<init>()
+	at com.epam.rd.autotasks.chesspuzzles.ChessPuzzlesTest.testXmlConfigLayouts(ChessPuzzlesTest.java:21)
+Caused by: java.lang.NoSuchMethodException: com.epam.rd.autotasks.chesspuzzles.Bishop.<init>()
+	at com.epam.rd.autotasks.chesspuzzles.ChessPuzzlesTest.testXmlConfigLayouts(ChessPuzzlesTest.java:21)
+
+testXmlConfigLayouts{String}[3]  Time elapsed: 0.002 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [defaultwhite.xml]; nested exception is java.io.FileNotFoundException: class path resource [defaultwhite.xml] cannot be opened because it does not exist
+	at com.epam.rd.autotasks.chesspuzzles.ChessPuzzlesTest.testXmlConfigLayouts(ChessPuzzlesTest.java:21)
+Caused by: java.io.FileNotFoundException: class path resource [defaultwhite.xml] cannot be opened because it does not exist
+	at com.epam.rd.autotasks.chesspuzzles.ChessPuzzlesTest.testXmlConfigLayouts(ChessPuzzlesTest.java:21)
+
+testXmlConfigLayouts{String}[4]  Time elapsed: 0.002 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [puzzle01.xml]; nested exception is java.io.FileNotFoundException: class path resource [puzzle01.xml] cannot be opened because it does not exist
+	at com.epam.rd.autotasks.chesspuzzles.ChessPuzzlesTest.testXmlConfigLayouts(ChessPuzzlesTest.java:21)
+Caused by: java.io.FileNotFoundException: class path resource [puzzle01.xml] cannot be opened because it does not exist
+	at com.epam.rd.autotasks.chesspuzzles.ChessPuzzlesTest.testXmlConfigLayouts(ChessPuzzlesTest.java:21)
+
+testXmlConfigLayouts{String}[5]  Time elapsed: 0.001 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [puzzle04.xml]; nested exception is java.io.FileNotFoundException: class path resource [puzzle04.xml] cannot be opened because it does not exist
+	at com.epam.rd.autotasks.chesspuzzles.ChessPuzzlesTest.testXmlConfigLayouts(ChessPuzzlesTest.java:21)
+Caused by: java.io.FileNotFoundException: class path resource [puzzle04.xml] cannot be opened because it does not exist
+	at com.epam.rd.autotasks.chesspuzzles.ChessPuzzlesTest.testXmlConfigLayouts(ChessPuzzlesTest.java:21)
+
+testXmlConfigLayouts{String}[6]  Time elapsed: 0.001 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [puzzle05.xml]; nested exception is java.io.FileNotFoundException: class path resource [puzzle05.xml] cannot be opened because it does not exist
+	at com.epam.rd.autotasks.chesspuzzles.ChessPuzzlesTest.testXmlConfigLayouts(ChessPuzzlesTest.java:21)
+Caused by: java.io.FileNotFoundException: class path resource [puzzle05.xml] cannot be opened because it does not exist
+	at com.epam.rd.autotasks.chesspuzzles.ChessPuzzlesTest.testXmlConfigLayouts(ChessPuzzlesTest.java:21)
+
