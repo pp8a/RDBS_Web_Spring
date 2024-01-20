@@ -19,7 +19,7 @@
 1. Spring [Chess Puzzles](https://github.com/pp8a/RDBS_Web_Spring/tree/main/chess-puzzles) </br> ```Chess is a famous table game. This exercise is about representing chess board states as Spring configurations.```
 2. Spring [Video Beans](https://github.com/pp8a/RDBS_Web_Spring/tree/main/spring-video-beans) </br> ```The purpose of the task is to configure dependency injection using different scopes.```
 3. Spring [Chess Puzzles. XML](https://github.com/pp8a/RDBS_Web_Spring/tree/main/chess-puzzles-xml) </br> ```This exercise is about representing chessboard states as Spring configuration using xml```
-4. Spring Custom Scopes
+4. Spring [Custom Scopes](https://github.com/pp8a/RDBS_Web_Spring/tree/main/spring-custom-scopes) </br>```Create three custom scopes for spring beans to use in Java Configuration```
 ## Spring MVC
 1. Stateful Expression Calculator
 ## Spring Boot
