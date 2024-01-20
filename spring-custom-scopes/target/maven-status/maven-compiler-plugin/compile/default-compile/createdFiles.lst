@@ -1,0 +1,9 @@
+com\rd\epam\autotasks\factory\ThreadBeanFactoryPostProcessor.class
+com\rd\epam\autotasks\factory\JustASecondBeanFactoryPostProcessor.class
+com\rd\epam\autotasks\scopes\config\ThreadScopeConfig.class
+com\rd\epam\autotasks\scopes\ThreadScope.class
+com\rd\epam\autotasks\scopes\JustASecondScope.class
+com\rd\epam\autotasks\factory\ThreeTimesBeanFactoryPostProcessor.class
+com\rd\epam\autotasks\scopes\config\ThreeTimesScopeConfig.class
+com\rd\epam\autotasks\scopes\ThreeTimesScope.class
+com\rd\epam\autotasks\scopes\config\JustASecondScopeConfig.class

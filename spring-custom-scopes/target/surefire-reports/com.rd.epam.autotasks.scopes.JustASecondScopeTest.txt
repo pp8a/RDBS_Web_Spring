@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.rd.epam.autotasks.scopes.JustASecondScopeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.559 s <<< FAILURE! - in com.rd.epam.autotasks.scopes.JustASecondScopeTest
+testTenThreeTimesBeans  Time elapsed: 1.553 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <java.lang.Object@6a57ae10> but was: <java.lang.Object@766653e6>
+	at com.rd.epam.autotasks.scopes.JustASecondScopeTest.testTenThreeTimesBeans(JustASecondScopeTest.java:55)
+
