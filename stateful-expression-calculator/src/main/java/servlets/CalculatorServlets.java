@@ -145,11 +145,11 @@ public class CalculatorServlets extends HttpServlet{
 					if (expressions.containsKey(sessionId)) {
 		                // Если ресурс уже существует, обновляем его
 		                expressions.put(sessionId, expression);
-		                resp.setStatus(HttpServletResponse.SC_OK);
+		                resp.setStatus(HttpServletResponse.SC_OK);//200
 		            } else {
 		                // Если ресурс только создается, возвращаем 201
 		                expressions.put(sessionId, expression);
-		                resp.setStatus(HttpServletResponse.SC_CREATED);
+		                resp.setStatus(HttpServletResponse.SC_CREATED);//201
 		                resp.setHeader("Location", req.getRequestURI());
 		            }		
 					
