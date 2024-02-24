@@ -1,0 +1,5 @@
+com\epam\rd\autotasks\springstatefulcalc\controllers\CalcController.class
+com\epam\rd\autotasks\springstatefulcalc\services\CalculationService.class
+com\epam\rd\autotasks\springstatefulcalc\WebAppInitializer.class
+com\epam\rd\autotasks\springstatefulcalc\WebConfig.class
+com\epam\rd\autotasks\springstatefulcalc\services\VariableService.class

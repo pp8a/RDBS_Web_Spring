@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.rd.autotasks.springstatefulcalc.StatefulCalcServletTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 2.55 s <<< FAILURE! - in com.epam.rd.autotasks.springstatefulcalc.StatefulCalcServletTest
+test012  Time elapsed: 0.012 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <201>
+	at com.epam.rd.autotasks.springstatefulcalc.StatefulCalcServletTest.test012(StatefulCalcServletTest.java:277)
+
+com.epam.rd.autotasks.springstatefulcalc.StatefulCalcServletTest  Time elapsed: 0.15 s  <<< ERROR!
+org.apache.catalina.LifecycleException: Failed to stop component [StandardServer[-1]]
+	at com.epam.rd.autotasks.springstatefulcalc.StatefulCalcServletTest.stopServer(StatefulCalcServletTest.java:84)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardService[Tomcat]]
+	at com.epam.rd.autotasks.springstatefulcalc.StatefulCalcServletTest.stopServer(StatefulCalcServletTest.java:84)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Tomcat]]
+	at com.epam.rd.autotasks.springstatefulcalc.StatefulCalcServletTest.stopServer(StatefulCalcServletTest.java:84)
+Caused by: org.apache.catalina.LifecycleException: A child container failed during stop
+	at com.epam.rd.autotasks.springstatefulcalc.StatefulCalcServletTest.stopServer(StatefulCalcServletTest.java:84)
+
