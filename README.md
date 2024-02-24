@@ -21,7 +21,7 @@
 3. Spring [Chess Puzzles. XML](https://github.com/pp8a/RDBS_Web_Spring/tree/main/chess-puzzles-xml) </br> ```This exercise is about representing chessboard states as Spring configuration using xml```
 4. Spring [Custom Scopes](https://github.com/pp8a/RDBS_Web_Spring/tree/main/spring-custom-scopes) </br>```Create three custom scopes for spring beans to use in Java Configuration```
 ## Spring MVC
-1. Spring [Stateful Expression Calculator](https://github.com/pp8a/RDBS_Web_Spring/tree/main/stateful-expression-calculator)
+1. Spring [Stateful Expression Calculator](https://github.com/pp8a/RDBS_Web_Spring/tree/main/spring-mvc-stateful-expression-calculator)
 ## Spring Boot
 1. Employee Catalog
 ## Spring Security API and Test-Driven Development with JUnit
