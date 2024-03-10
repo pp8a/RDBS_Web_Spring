@@ -23,6 +23,6 @@
 ## Spring MVC
 1. Spring [Stateful Expression Calculator](https://github.com/pp8a/RDBS_Web_Spring/tree/main/spring-mvc-stateful-expression-calculator)
 ## Spring Boot
-1. Employee Catalog
+1. Spring [Employee Catalog](https://github.com/pp8a/RDBS_Web_Spring/tree/main/employee-catalog)
 ## Spring Security API and Test-Driven Development with JUnit
 1. Spring Catalog Access
