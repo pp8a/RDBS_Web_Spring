@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.rd.autotasks.springemployeecatalog.MvcTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.875 s <<< FAILURE! - in com.epam.rd.autotasks.springemployeecatalog.MvcTests
+testAll  Time elapsed: 0.052 s  <<< ERROR!
+com.epam.rd.autotasks.springemployeecatalog.MvcTestsError: Failed on case: mvc\all\all.json
+	at com.epam.rd.autotasks.springemployeecatalog.MvcTests.testAll(MvcTests.java:34)
+Caused by: java.lang.AssertionError: []: Expected 14 values but got 10
+	at com.epam.rd.autotasks.springemployeecatalog.MvcTests.lambda$testAll$0(MvcTests.java:39)
+	at com.epam.rd.autotasks.springemployeecatalog.MvcTests.testAll(MvcTests.java:34)
+
