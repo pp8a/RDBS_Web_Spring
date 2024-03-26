@@ -26,13 +26,13 @@ public class EmployeesController {
 
 
     @GetMapping
-//    @PreAuthorize("hasRole('MANAGER') OR hasRole('EMPLOYEE')") 
+    @PreAuthorize("hasRole('MANAGER') OR hasRole('EMPLOYEE')") 
     public List<Employee> getEmployees() {
         return employees;
     }
 
     @GetMapping(value = "/{id}")
-//    @PreAuthorize("hasAnyRole('MANAGER', 'EMPLOYEE')")
+    @PreAuthorize("hasAnyRole('MANAGER', 'EMPLOYEE')")
     public Employee getEmployee(@PathVariable Long id) {
         return employees.stream()
                 .filter(e -> e.getId() == id)
@@ -41,7 +41,7 @@ public class EmployeesController {
     }
 
     @PostMapping
-//    @PreAuthorize("hasRole('MANAGER')")
+    @PreAuthorize("hasRole('MANAGER')")
     public Employee putEmployee(@RequestParam("name") String name,
                                 @RequestParam("position") Position position) {
         return new Employee(4, name, position);

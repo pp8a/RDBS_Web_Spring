@@ -4,12 +4,14 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 @Configuration
 @EnableWebSecurity
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     private static final String MANAGER = "MANAGER";
@@ -25,22 +27,22 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
              http
                  .csrf().disable(); // Отключаем CSRF
          }
-    	 
-    	 http
-         // Другие настройки безопасности...
-         .authorizeRequests()
-         	//only the manager sends requests
-         	 .antMatchers(HttpMethod.POST, "/employees").hasRole(MANAGER) 
-             // forbbiden for CUSTOMER, allow for MANAGER and EMPLOYEE
-              .antMatchers("/employees/**").hasAnyRole(MANAGER, EMPLOYEE)
-             // allow for all roles
-             .antMatchers("/catalog/**").hasAnyRole(MANAGER, EMPLOYEE, CUSTOMER)
-             //available manager or employee
-             .antMatchers("/salaries/my").hasAnyRole(MANAGER, EMPLOYEE)
-             //available only manager
-             .antMatchers("/salaries/**").hasRole(MANAGER)
-             .anyRequest().authenticated()
-             .and()            
-             .httpBasic(); 
+    	 //It also works 
+//    	 http
+//         // Другие настройки безопасности...
+//         .authorizeRequests()
+//         	//only the manager sends requests
+//         	 .antMatchers(HttpMethod.POST, "/employees").hasRole(MANAGER) 
+//             // forbbiden for CUSTOMER, allow for MANAGER and EMPLOYEE
+//              .antMatchers("/employees/**").hasAnyRole(MANAGER, EMPLOYEE)
+//             // allow for all roles
+//             .antMatchers("/catalog/**").hasAnyRole(MANAGER, EMPLOYEE, CUSTOMER)
+//             //available manager or employee
+//             .antMatchers("/salaries/my").hasAnyRole(MANAGER, EMPLOYEE)
+//             //available only manager
+//             .antMatchers("/salaries/**").hasRole(MANAGER)
+//             .anyRequest().authenticated()
+//             .and()            
+//             .httpBasic(); 
     }
 }

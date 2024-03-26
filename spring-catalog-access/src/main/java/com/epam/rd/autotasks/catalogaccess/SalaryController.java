@@ -19,13 +19,13 @@ import java.util.List;
 public class SalaryController {
 
     @GetMapping
-//    @PreAuthorize("hasRole('MANAGER')")
+    @PreAuthorize("hasRole('MANAGER')")
     public List<BigDecimal> getSalaries() {
         return ImmutableList.of(BigDecimal.ONE, BigDecimal.ZERO);
     }
 
     @GetMapping(value = "/my")
-//    @PreAuthorize("hasRole('MANAGER') OR hasRole('EMPLOYEE')")
+    @PreAuthorize("hasRole('MANAGER') OR hasRole('EMPLOYEE')")
     public BigDecimal mySalary() {
         return BigDecimal.ZERO;
     }

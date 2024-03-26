@@ -15,7 +15,7 @@ import java.util.List;
 public class CatalogController {
 
     @GetMapping
-//    @PreAuthorize("hasRole('MANAGER') OR hasRole('EMPLOYEE') OR hasRole('CUSTOMER')")
+    @PreAuthorize("hasRole('MANAGER') OR hasRole('EMPLOYEE') OR hasRole('CUSTOMER')")
     public List<String> goods() {
         return ImmutableList.of("Portrait of Shakespeare", "Notebook A4");
     }
