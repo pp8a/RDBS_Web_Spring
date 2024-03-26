@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.rd.autotasks.catalogaccess.MvcTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 3.144 s <<< FAILURE! - in com.epam.rd.autotasks.catalogaccess.MvcTests
+testSalaries  Time elapsed: 0.406 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<403>
+	at com.epam.rd.autotasks.catalogaccess.MvcTests.testSalaries(MvcTests.java:49)
+
+testEmployees  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<403>
+	at com.epam.rd.autotasks.catalogaccess.MvcTests.testEmployees(MvcTests.java:78)
+
+testCatalog  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<403>
+	at com.epam.rd.autotasks.catalogaccess.MvcTests.testCatalog(MvcTests.java:130)
+

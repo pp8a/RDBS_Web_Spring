@@ -1,0 +1,7 @@
+com\epam\rd\autotasks\catalogaccess\domain\Employee.class
+com\epam\rd\autotasks\catalogaccess\WebSecurityConfig.class
+com\epam\rd\autotasks\catalogaccess\MvcApplication.class
+com\epam\rd\autotasks\catalogaccess\EmployeesController.class
+com\epam\rd\autotasks\catalogaccess\domain\Position.class
+com\epam\rd\autotasks\catalogaccess\SalaryController.class
+com\epam\rd\autotasks\catalogaccess\CatalogController.class
